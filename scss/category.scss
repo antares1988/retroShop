@@ -1,0 +1,41 @@
+$color1: #f7f7f7;
+$color2: #f2ebdf;
+$color3: #8f8f8f;
+$color4: #2c2524;
+$color5: #211006;
+$color6: #e9c38e;
+$color7: #da9d69;
+$color8: #211c1b;
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 90px;
+  margin-bottom: 150px;
+  .categoriesElem {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 48%;
+    border: 1px solid $color3;
+    padding: 23px 30px;
+    border-radius: 100px;
+    .categoriesElemImg {
+      width: 140px;
+      height: 120px;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+    p {
+      font-family: 'Lora';
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      text-transform: uppercase;
+
+      color: $color6;
+    }
+  }
+}

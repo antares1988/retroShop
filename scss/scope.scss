@@ -1,0 +1,38 @@
+$color1: #f7f7f7;
+$color2: #f2ebdf;
+$color3: #8f8f8f;
+$color4: #2c2524;
+$color5: #211006;
+$color6: #e9c38e;
+$color7: #da9d69;
+$color8: #211c1b;
+.scopeBlock {
+  margin-bottom: 300px;
+  .scopeBg {
+    height: 570px;
+    background-image: linear-gradient(
+        180deg,
+        rgba(33, 28, 27, 0) 0%,
+        #211c1b 95.33%
+      ),
+      url(../assets/image/scope/1.jpg);
+  }
+  .h2Wrapper {
+    margin-bottom: 20px;
+    .h2 {
+      bottom: 40%;
+    }
+    h2 {
+      bottom: 13%;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  p {
+    margin: 0 auto;
+    width: 66%;
+    font-size: 18px;
+    line-height: 30px;
+    color: $color2;
+  }
+}

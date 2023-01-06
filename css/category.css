@@ -1,0 +1,32 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 90px;
+  margin-bottom: 150px;
+}
+.categories .categoriesElem {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  width: 48%;
+  border: 1px solid #8f8f8f;
+  padding: 23px 30px;
+  border-radius: 100px;
+}
+.categories .categoriesElem .categoriesElemImg {
+  width: 140px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.categories .categoriesElem p {
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #e9c38e;
+}/*# sourceMappingURL=category.css.map */
