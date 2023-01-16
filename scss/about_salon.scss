@@ -1,0 +1,43 @@
+$color1: #f7f7f7;
+$color2: #f2ebdf;
+$color3: #8f8f8f;
+$color4: #2c2524;
+$color5: #211006;
+$color6: #e9c38e;
+$color7: #da9d69;
+$color8: #211c1b;
+.mainPreviewContainer {
+  background-image: linear-gradient(
+      180deg,
+      rgba(32, 34, 26, 0) 0%,
+      #20221a 96.08%
+    ),
+    url('../assets/image/aboutSalon/bg.jpg');
+  background-size: cover;
+  .aboutSalonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 220px;
+    margin-bottom: 100px;
+    h1 {
+      font-family: 'Lora';
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 58px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      color: $color6;
+      max-width: 850px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      color: $color2;
+      max-width: 847px;
+    }
+  }
+}

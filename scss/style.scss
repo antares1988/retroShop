@@ -47,6 +47,15 @@ main {
 .none {
   display: none;
 }
+h1 {
+  font-family: 'Lora';
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $color6;
+}
 
 @media (max-width: 1300px) {
   .container {

@@ -23,10 +23,15 @@ $color8: #211c1b;
     padding: 23px 30px;
     border-radius: 100px;
     .categoriesElemImg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 140px;
       height: 120px;
       overflow: hidden;
       border-radius: 50%;
+      background: #f7f7f7;
+      background: url(../assets/image/categories/CategoryImgBg.jpg);
     }
     p {
       font-family: 'Lora';
