@@ -13,11 +13,21 @@ p {
   color: #f2ebdf;
 }
 
-.mainPreviewContainer {
+.mainPreviewContainer,
+.mainPreviewContainerSell,
+.mainPreviewContainerAppraisal {
   background-image: linear-gradient(185deg, rgba(32, 34, 26, 0) 0%, #20221a 96.08%), url("../assets/image/buy/bg.jpg");
   background-size: cover;
 }
-.mainPreviewContainer .buyPageContainer {
+.mainPreviewContainer .buyPageContainer,
+.mainPreviewContainer .sellPageContainer,
+.mainPreviewContainer .appraisalPageContainer,
+.mainPreviewContainerSell .buyPageContainer,
+.mainPreviewContainerSell .sellPageContainer,
+.mainPreviewContainerSell .appraisalPageContainer,
+.mainPreviewContainerAppraisal .buyPageContainer,
+.mainPreviewContainerAppraisal .sellPageContainer,
+.mainPreviewContainerAppraisal .appraisalPageContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -25,12 +35,28 @@ p {
   width: 100%;
   margin: 100px 0;
 }
-.mainPreviewContainer .buyPageContainer h1 {
+.mainPreviewContainer .buyPageContainer h1,
+.mainPreviewContainer .sellPageContainer h1,
+.mainPreviewContainer .appraisalPageContainer h1,
+.mainPreviewContainerSell .buyPageContainer h1,
+.mainPreviewContainerSell .sellPageContainer h1,
+.mainPreviewContainerSell .appraisalPageContainer h1,
+.mainPreviewContainerAppraisal .buyPageContainer h1,
+.mainPreviewContainerAppraisal .sellPageContainer h1,
+.mainPreviewContainerAppraisal .appraisalPageContainer h1 {
   font-size: 36px;
   line-height: 46px;
   margin-bottom: 30px;
 }
-.mainPreviewContainer .buyPageContainer h3 {
+.mainPreviewContainer .buyPageContainer h3,
+.mainPreviewContainer .sellPageContainer h3,
+.mainPreviewContainer .appraisalPageContainer h3,
+.mainPreviewContainerSell .buyPageContainer h3,
+.mainPreviewContainerSell .sellPageContainer h3,
+.mainPreviewContainerSell .appraisalPageContainer h3,
+.mainPreviewContainerAppraisal .buyPageContainer h3,
+.mainPreviewContainerAppraisal .sellPageContainer h3,
+.mainPreviewContainerAppraisal .appraisalPageContainer h3 {
   font-family: "Lora";
   font-weight: 700;
   font-size: 22px;
@@ -39,30 +65,82 @@ p {
   color: #2c2524;
   max-width: 847px;
 }
-.mainPreviewContainer .buyPageContainer .orderFormContainer {
+.mainPreviewContainer .buyPageContainer .orderFormContainer,
+.mainPreviewContainer .sellPageContainer .orderFormContainer,
+.mainPreviewContainer .appraisalPageContainer .orderFormContainer,
+.mainPreviewContainerSell .buyPageContainer .orderFormContainer,
+.mainPreviewContainerSell .sellPageContainer .orderFormContainer,
+.mainPreviewContainerSell .appraisalPageContainer .orderFormContainer,
+.mainPreviewContainerAppraisal .buyPageContainer .orderFormContainer,
+.mainPreviewContainerAppraisal .sellPageContainer .orderFormContainer,
+.mainPreviewContainerAppraisal .appraisalPageContainer .orderFormContainer {
   background-color: #f7f7f7;
   width: 100%;
   border-radius: 30px;
   padding: 45px 130px 150px;
 }
-.mainPreviewContainer .buyPageContainer .orderFormContainer form {
+.mainPreviewContainer .buyPageContainer .orderFormContainer form,
+.mainPreviewContainer .sellPageContainer .orderFormContainer form,
+.mainPreviewContainer .appraisalPageContainer .orderFormContainer form,
+.mainPreviewContainerSell .buyPageContainer .orderFormContainer form,
+.mainPreviewContainerSell .sellPageContainer .orderFormContainer form,
+.mainPreviewContainerSell .appraisalPageContainer .orderFormContainer form,
+.mainPreviewContainerAppraisal .buyPageContainer .orderFormContainer form,
+.mainPreviewContainerAppraisal .sellPageContainer .orderFormContainer form,
+.mainPreviewContainerAppraisal .appraisalPageContainer .orderFormContainer form {
   display: flex;
   flex-direction: column;
   margin-top: 40px;
   row-gap: 30px;
 }
-.mainPreviewContainer .buyPageContainer .orderFormContainer form .telMail {
+.mainPreviewContainer .buyPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainer .sellPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainer .appraisalPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainerSell .buyPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainerSell .sellPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainerSell .appraisalPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainerAppraisal .buyPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainerAppraisal .sellPageContainer .orderFormContainer form .telMail,
+.mainPreviewContainerAppraisal .appraisalPageContainer .orderFormContainer form .telMail {
   display: flex;
   justify-content: space-between;
 }
-.mainPreviewContainer .buyPageContainer .orderFormContainer form .buttons {
+.mainPreviewContainer .buyPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainer .sellPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainer .appraisalPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainerSell .buyPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainerSell .sellPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainerSell .appraisalPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainerAppraisal .buyPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainerAppraisal .sellPageContainer .orderFormContainer form .buttons,
+.mainPreviewContainerAppraisal .appraisalPageContainer .orderFormContainer form .buttons {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
 }
 
-.aboutContainerWrapper {
+.mainPreviewContainerSell {
+  background-image: linear-gradient(185deg, rgba(32, 34, 26, 0) 0%, #20221a 96.08%), url("../assets/image/sell/main-sell-bg.jpg");
+}
+
+.mainPreviewContainerAppraisal {
+  background-image: linear-gradient(185deg, rgba(32, 34, 26, 0) 0%, #20221a 96.08%), url("../assets/image/appraisal/bg.jpg");
+}
+
+.aboutContainerWrapperBuy {
   background: url(../assets/image/buy/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutContainerWrapperSell {
+  background: url(../assets/image/sell/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutContainerWrapperAppraisal {
+  background: url(../assets/image/appraisal/about_bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,6 +173,7 @@ p {
 .benefitsContainer .benefitsContainerTop .ellipse {
   position: relative;
   width: 446px;
+  min-width: 446px;
   height: 429px;
   background: #3e3e3e;
   opacity: 0.6;

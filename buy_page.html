@@ -6,16 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RetroShop</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/menu.css">
-    <link rel="stylesheet" href="../css/buttons.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/category.css">
-    <link rel="stylesheet" href="../css/scope.css">
-    <link rel="stylesheet" href="../css/about_salon.css">
-    <link rel="stylesheet" href="../css/buy_page.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -64,7 +56,7 @@
                                 <li><a class="mainMenuLiA" href="contacts_page.html">контакты</a></li>
                             </ul>
                         </nav>
-                        <a class="btn btn3 displayNone">Заказать оценку</a>
+                        <a href="grade_page.html" class="btn btn3 displayNone">Заказать оценку</a>
                     </div>
                 </div>
 
@@ -80,23 +72,26 @@
                                 +375 29 656-62-02.
                             </h3>
                             <form action="#" class="form">
-                                <input type="text">
+                                <input type="text" placeholder="Как вас зовут?">
                                 <div class="telMail">
-                                    <input type="tel">
-                                    <input type="email">
+                                    <input type="tel" placeholder="Номер телефона">
+                                    <input type="email" placeholder="Адрес эл. почты">
                                 </div>
-                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                <textarea name="" id="" placeholder="Ваш комментарий"></textarea>
                                 <div class="buttons">
-                                    <input type="file" value="Прикрепить фотографии" />
-                                    <input type="submit" value="Отправить на оценку" />
+                                    <form method="post" enctype="multipart/form-data">
+                                        <label class="input-file">
+                                            <input type="file" name="file">
+                                            <span class="btn btn1">Прикрепить фотографии</span>
+                                        </label>
+                                        <input class="btn btn3" type="submit" value="Отправить на оценку" />
                                 </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="aboutContainerWrapper">
+            <div class="aboutContainerWrapperBuy">
                 <div class="container">
                     <div class="aboutContainer">
                         <div class="about">
