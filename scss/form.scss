@@ -1,0 +1,49 @@
+$color1: #f7f7f7;
+$color2: #f2ebdf;
+$color3: #8f8f8f;
+$color4: #2c2524;
+$color5: #211006;
+$color6: #e9c38e;
+$color7: #da9d69;
+$color8: #211c1b;
+form {
+  display: flex;
+  .telMail {
+    display: flex;
+    column-gap: 40px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    .input-file {
+      position: relative;
+      span {
+        position: absolute;
+        top: 0;
+        font-weight: 400;
+      }
+      input[type=file] {
+        z-index: -1;
+        opacity: 0;
+        border: 1px solid red;
+        padding: 10px;
+      }
+    }
+    .btn {
+      padding: 11px 30px;
+    }
+  }
+  input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+  }
+  textarea {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    padding: 15px;
+  }
+}

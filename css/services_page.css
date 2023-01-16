@@ -1,0 +1,158 @@
+h2 {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #e9c38e;
+}
+
+p {
+  line-height: 25px;
+  color: #f2ebdf;
+}
+
+.mainPreviewContainer,
+.mainPreviewContainerSell,
+.mainPreviewContainerAppraisal {
+  background-image: linear-gradient(185deg, rgba(32, 34, 26, 0) 0%, #20221a 96.08%), url("../assets/image/buy/bg.jpg");
+  background-size: cover;
+}
+
+.buyPageContainer,
+.sellPageContainer,
+.appraisalPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 100px 0;
+}
+.buyPageContainer h1,
+.sellPageContainer h1,
+.appraisalPageContainer h1 {
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+.buyPageContainer h3,
+.sellPageContainer h3,
+.appraisalPageContainer h3 {
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #2c2524;
+  max-width: 847px;
+}
+.buyPageContainer .orderFormContainer,
+.sellPageContainer .orderFormContainer,
+.appraisalPageContainer .orderFormContainer {
+  background-color: #f7f7f7;
+  width: 100%;
+  border-radius: 30px;
+  padding: 45px 130px 150px;
+}
+.buyPageContainer .orderFormContainer form,
+.sellPageContainer .orderFormContainer form,
+.appraisalPageContainer .orderFormContainer form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 30px;
+}
+.buyPageContainer .orderFormContainer form .telMail,
+.sellPageContainer .orderFormContainer form .telMail,
+.appraisalPageContainer .orderFormContainer form .telMail {
+  display: flex;
+  justify-content: space-between;
+}
+.buyPageContainer .orderFormContainer form .buttons,
+.sellPageContainer .orderFormContainer form .buttons,
+.appraisalPageContainer .orderFormContainer form .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mainPreviewContainerSell {
+  background-image: linear-gradient(185deg, rgba(32, 34, 26, 0) 0%, #20221a 96.08%), url("../assets/image/sell/main-sell-bg.jpg");
+}
+
+.mainPreviewContainerAppraisal {
+  background-image: linear-gradient(185deg, rgba(32, 34, 26, 0) 0%, #20221a 96.08%), url("../assets/image/appraisal/bg.jpg");
+}
+
+.aboutContainerWrapperBuy {
+  background: url(../assets/image/buy/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutContainerWrapperSell {
+  background: url(../assets/image/sell/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutContainerWrapperAppraisal {
+  background: url(../assets/image/appraisal/about_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.aboutContainer .about {
+  max-width: 550px;
+  background: #3e3e3e;
+  padding: 50px 30px 288px;
+  opacity: 0.9;
+}
+
+.benefitsContainer {
+  margin: 140px 0;
+}
+.benefitsContainer .benefitsContainerTop {
+  display: flex;
+  justify-content: space-between;
+}
+.benefitsContainer .benefitsContainerTop .benefitsText {
+  max-width: 622px;
+}
+.benefitsContainer .benefitsContainerTop .benefitsText p {
+  line-height: 30px;
+}
+.benefitsContainer .benefitsContainerTop .ellipse {
+  position: relative;
+  width: 446px;
+  min-width: 446px;
+  height: 429px;
+  background: #3e3e3e;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+.benefitsContainer .benefitsContainerTop .ellipse .img {
+  position: absolute;
+  bottom: 0;
+  transform: rotate(15deg);
+  z-index: 10;
+}
+.benefitsContainer .benefitsContainerBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 110px;
+}
+.benefitsContainer .benefitsContainerBottom .benefitsText {
+  max-width: 980px;
+}
+.benefitsContainer .benefitsContainerBottom .benefitsText h2 {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=services_page.css.map */

@@ -17,10 +17,15 @@
   border-radius: 100px;
 }
 .categories .categoriesElem .categoriesElemImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 140px;
   height: 120px;
   overflow: hidden;
   border-radius: 50%;
+  background: #f7f7f7;
+  background: url(../assets/image/categories/CategoryImgBg.jpg);
 }
 .categories .categoriesElem p {
   font-family: "Lora";
